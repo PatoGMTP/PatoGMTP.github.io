@@ -6,6 +6,10 @@ function lego() {
     location.href = "https://www.lego.com/en-us"
 }
 
+function home () {
+    location.href = "index.html"
+}
+
 // Add items to cart
 let cart = []
 
