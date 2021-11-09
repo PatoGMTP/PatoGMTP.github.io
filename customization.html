@@ -57,41 +57,44 @@
         <img src="pinkbottle.png" class="img-fluid product-device d-none d-md-block" alt="Responsive image" style="">
         <img src="bluebottle.png" class="img-fluid product-device product-device-2 d-none d-md-block" alt="Responsive image" style="">
     
-    </div>
-    
-      <div class="list-group list-group-checkable">
-        <input class="list-group-item-check" type="radio" name="listGroupCheckableColors" id="red" value="red" checked>
-        <label class="list-group-item py-3" for="red">
-          Red
-          <span  class="d-block small opacity-50">With support text underneath to add more detail</span>
-        </label>
-      
-        <input class="list-group-item-check" type="radio" name="listGroupCheckableColors" id="white" value="">
-        <label class="list-group-item py-3" for="white">
-          White
-          <span class="d-block small opacity-50">Some other text goes here</span>
-        </label>
-      
-        <input class="list-group-item-check" type="radio" name="listGroupCheckableColors" id="blue" value="">
-        <label class="list-group-item py-3" for="blue">
-          Blue
-          <span class="d-block small opacity-50">And we end with another snippet of text</span>
-        </label>
-      
-        <input class="list-group-item-check" type="radio" name="listGroupCheckableColors" id="black" value="">
-        <label class="list-group-item py-3" for="black">
-          Black
-          <span class="d-block small opacity-50">This option is disabled</span>
-        </label>
-
-        <input class="list-group-item-check" type="radio" name="listGroupCheckableColors" id="pink" value="">
-        <label class="list-group-item py-3" for="pink">
-          Pink
-          <span class="d-block small opacity-50">This option is disabled</span>
-        </label>
       </div>
 
-      <div class="list-group list-group-checkable">
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    
+        <div class="list-group list-group-checkable text-center">
+          <input class="list-group-item-check" type="radio" name="listGroupCheckableColors" id="red" value="red" checked>
+          <label class="list-group-item py-3" for="red">
+            Red
+            <span  class="d-block small opacity-50">With support text underneath to add more detail</span>
+          </label>
+        
+          <input class="list-group-item-check" type="radio" name="listGroupCheckableColors" id="white" value="">
+          <label class="list-group-item py-3" for="white">
+            White
+            <span class="d-block small opacity-50">Some other text goes here</span>
+          </label>
+        
+          <input class="list-group-item-check" type="radio" name="listGroupCheckableColors" id="blue" value="">
+          <label class="list-group-item py-3" for="blue">
+            Blue
+            <span class="d-block small opacity-50">And we end with another snippet of text</span>
+          </label>
+        
+          <input class="list-group-item-check" type="radio" name="listGroupCheckableColors" id="black" value="">
+          <label class="list-group-item py-3" for="black">
+            Black
+            <span class="d-block small opacity-50">This option is disabled</span>
+          </label>
+
+          <input class="list-group-item-check" type="radio" name="listGroupCheckableColors" id="pink" value="">
+          <label class="list-group-item py-3" for="pink">
+            Pink
+            <span class="d-block small opacity-50">This option is disabled</span>
+          </label>
+        </div>
+      
+
+      <div class="list-group list-group-checkable text-center align-self-center">
         <input class="list-group-item-check" type="radio" name="listGroupCheckableRadios" id="male" value="" checked>
         <label class="list-group-item py-3" for="male">
           Male
@@ -105,6 +108,10 @@
         </label>
       </div>
 
+
+      </div>
+
+    </div>
     <div class="col-md-7 col-lg-8">
         <button id='addToCart' class="w-100 btn btn-primary btn-lg" onclick="addToCart()">Add to Cart</button>
     </div>
