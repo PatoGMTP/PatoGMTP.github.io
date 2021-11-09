@@ -37,7 +37,7 @@
     <!-- Custom styles for this template -->
     <link href="product.css" rel="stylesheet">
   </head>
-  <body>
+  <body onload = "resetLocalStorage()">
     
 <header class="site-header sticky-top py-1">
   <nav class="container d-flex flex-column flex-md-row justify-content-between">
@@ -54,7 +54,7 @@
     <div class="col-md-5 p-lg-5 mx-auto my-5">
       <h1 class="display-4 fw-normal animate__animated animate__bounce">Thank you for your purchase!</h1>
       <p class="lead fw-normal slide-in">Before you go, check out these other products.</p>
-      <a class="btn btn-outline-secondary" href="#">See other Lego products</a>
+      <a onclick = "lego()" class="btn btn-outline-secondary">See other Lego products</a>
     </div>
     <!-- <div class="product-device shadow-sm d-none d-md-block"></div>
     <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div> -->
@@ -65,6 +65,7 @@
 
 
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
 
       
   </body>
