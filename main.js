@@ -2,6 +2,10 @@ function checkout() {
     location.href = "success.html"
 }
 
+function customization() {
+    location.href = "customization.html"
+}
+
 function lego() {
     location.href = "https://www.lego.com/en-us"
 }
