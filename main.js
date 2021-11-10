@@ -57,7 +57,7 @@ function getCart () {
 }
 
 function resetLocalStorage () {
-    let resetValue ={};
+    let resetValue =[];
     localStorage.setItem("cart", resetValue);
 }
 
